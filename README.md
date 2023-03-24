@@ -1,2 +1,2 @@
 # Book_Price
-Book_Price_Hackaton
+Predicting the book price using random forest algorithm
