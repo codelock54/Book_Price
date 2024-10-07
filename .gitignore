@@ -1,3 +1,5 @@
 *.pkl
-Sample_Submission.xlsx
 .vscode
+.ipynb_checkpoints
+.venv
+.gitattributes
