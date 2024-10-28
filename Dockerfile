@@ -1,13 +1,13 @@
-from python:3.7.8-slim
+FROM  python:3.7.8-slim
 
 EXPOSE 8080
 
 RUN pip install -U pip 
 
-copy requeriments.txt app/requeriments.txt
-run pip install -r app/requeriments.txt
+COPY requirements.txt app/requirements.txt
+RUN pip install -r app/requeriments.txt
 
-copy . /app
+COPY . /app
 WORKDIR /app
 
 
