@@ -26,12 +26,11 @@ Para correr la aplicación localmente:
 
 1. Clonar el repositorio y navegar al directorio del proyecto:
    ```bash
-   git clone https://github.com/tu_usuario/BookPricePrediction.git
-
+   git clone https://github.com/codelock54/Book_Price
    cd BookPricePrediction
 
    pip install -r requirements.txt
 
    streamlit run app.py
    
-   ´´´
+   ```
