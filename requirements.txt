@@ -3,3 +3,4 @@ numpy==1.20.3
 pandas==1.2.4
 scikit-learn==1.5.2
 streamlit==1.39.0
+gunicorn==19.9.0
