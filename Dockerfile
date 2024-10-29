@@ -2,11 +2,11 @@ FROM python:3.12-slim
 
 EXPOSE 8080
 
-RUN apt-get update && \
-    apt-get install -y build-essential python3-distutils python3-pip && \
-    rm -rf /var/lib/apt/lists/*
-RUN pip install setuptools
-RUN pip install build
+#RUN apt-get update && \
+ #   apt-get install -y build-essential python3-distutils python3-pip && \
+  #  rm -rf /var/lib/apt/lists/*
+#RUN pip install setuptools
+#RUN pip install build
 
 RUN pip install --upgrade pip 
 
