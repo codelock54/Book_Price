@@ -1,6 +1,6 @@
-Flask==1.1.1
-numpy==1.21.0
+Flask 2.3.3
+numpy==1.22.0  # Actualizado para compatibilidad con Scikit-learn
 pandas==1.4.0
 scikit-learn==1.5.2
-streamlit==1.39.0
-gunicorn==19.9.0
+streamlit==1.13.0  # Compatible con las otras librerías
+gunicorn==20.1.0  # Actualización opcional, para mayor estabilidad
