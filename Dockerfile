@@ -1,17 +1,17 @@
-FROM python:3.7.8-slim
+
+FROM python
 
 EXPOSE 8080
 
-#RUN apt-get update && \
- #   apt-get install -y build-essential python3-distutils python3-pip && \
-  #  rm -rf /var/lib/apt/lists/*
-RUN pip install setuptools
-RUN pip install build
+RUN apt-get update && \
+    apt-get install -y build-essential python3-distutils && \
+    rm -rf /var/lib/apt/lists/*
 
-RUN pip install --upgrade pip 
+RUN pip install --upgrade pip setuptools
 
 COPY requirements.txt /app/requirements.txt
-RUN pip install -r /app/requirements.txt
+
+RUN pip install --no-cache-dir -r /app/requirements.txt
 
 COPY . /app
 WORKDIR /app
