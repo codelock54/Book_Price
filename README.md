@@ -1,6 +1,6 @@
 # Book Price Prediction App 📚
 
-Este proyecto utiliza machine learning para predecir el precio de libros basándose en características como el título, el autor, el género y la categoría del libro. La aplicación está desarrollada en Python utilizando Streamlit como frontend, y puedes acceder a ella en el siguiente enlace: [Book Price Prediction App](https://bookprice-2yjhujkac5jssqyirxg2ba.streamlit.app/).
+Este proyecto utiliza machine learning para predecir el precio de libros basándose en características como el título, el autor, el género y la categoría del libro. La aplicación está desarrollada en Python utilizando Streamlit como frontend, y puedes acceder a ella en el siguiente enlace: [Book Price Prediction App](https://book-price-prediction.streamlit.app/).
 
 ## Descripción del Proyecto
 
