@@ -1,9 +1,10 @@
-FROM python:3.7.8-slim
+FROM python:3.12-slim
 
 EXPOSE 8080
 
 RUN apt-get update && \
-    apt-get install -y build-essential python3-distutils
+    apt-get install -y build-essential python3-distutils python3-pip && \
+    rm -rf /var/lib/apt/lists/*
 
 RUN pip install --upgrade pip 
 
